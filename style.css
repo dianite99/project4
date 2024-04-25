@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(149, 211, 210);
+    background-color: rgb(180, 211, 149);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -15,6 +15,10 @@ h2 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
+
 .quizContainer {
     width:80%;
     margin: 0 auto;
@@ -23,7 +27,7 @@ h2 {
 .question {
     width: 80%;
     margin-bottom: 20px;
-    background-color: aliceblue;
+    background-color: rgb(242, 255, 233);
     padding: 20px;
     margin: 20px auto;
 }
@@ -56,7 +60,7 @@ input[type="radio"]{
     margin: auto;
     padding: 10px 20px;
     background-color: aliceblue;
-    color: rgb(149, 211, 210);
+    color: rgb(180, 211, 149);
     border: none;
     font-size: 24px;
     border-radius: 5px;
