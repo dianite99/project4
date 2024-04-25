@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Div</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Art From the Met</h1>
+    <div class="quizContainer">
+        <form id="quizForm">
+                <div class="question">
+                    <p>What flowers are your favorite?</p>
+                    <div class="answers">
+                        <label>
+                            <input type="radio" name="q1" value="a">
+                            A. Sunflowers
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="b">
+                            B. Box
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="c">
+                            C. Andiron
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="d">
+                            D. Beaker
+                        </label>
+                        <label>
+                            <input type="radio" name="q1" value="e">
+                            E. Other
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="submitButton">Submit</button>
+            </form>
+    </div>
+<br>
+    <div id="artList"></div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>

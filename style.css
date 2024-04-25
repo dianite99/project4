@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(149, 211, 210);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.quizContainer {
+    width:80%;
+    margin: 0 auto;
+}
+
+.question {
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.question p{
+    font-weight: bold;
+}
+
+.answers{
+    margin-bottom: 10px;
+}
+
+.answers label:not(:first-child){
+    border-top:1px solid #a9a9a9;
+  }
+
+label{
+    padding:10px 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"]{
+    margin-right: 10px;
+}
+
+.submitButton{
+    display: block;
+    margin-bottom: 20px auto;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: aliceblue;
+    color: rgb(149, 211, 210);
+    border: none;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+}
